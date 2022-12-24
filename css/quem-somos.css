@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #ed1b24;
+    height: 110px;
+    width: 100%;
+}
+
+header .container{
+    justify-content: space-between;
+    background-color: #ed1b24;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 110px;
+}
+
+header .container .logo img{
+    width: 200px;
+}
+
+header .container .links a{
+    text-decoration: none;
+    padding: 0 12px;
+    color: #fff;
+}
+
+header .container .social-links a img{
+    width: 28px;
+}
+
+section{
+    width: 100%;
+}
+
+section .container{
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+section .container .left{
+    background-color: #ffffffad;
+    margin-right: -175px;
+    align-items: center;
+    margin-left: 50px;
+    padding: 80px 0;
+    display: grid;
+    height: 450px;
+    z-index: 999;
+    width: 600px;
+}
+
+section .container .left h1{
+    font-weight: bold;
+    color: #850c12;
+    font-size: 78px;
+}
+
+section .container .left span{
+    background-color: #e6e6e6;
+    margin-top: -10px;
+    width: 110px;
+    height: 4px;
+    margin: 50px 0;
+}
+
+section .container .left a{
+    background-color: #850c12;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    padding: 5px;
+}
+
+section .container .left .absolute img{
+    margin-top: -120px;
+    position: absolute;
+    margin-right: 0px;
+    width: 80px;
+    float: left;
+}
+
+section .container .right img{
+    position: relative;
+    width: 800px;
+    z-index: 0;
+}
+
+/* ---------- section-2 ---------- */
+
+.section-2{
+    width: 100%;
+}
+
+.section-2 .container{
+    display: grid;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.section-2 .container span{
+    position: absolute;
+    background-color: #850c12;
+    width: 3px;
+    height: 120px;
+    margin-top: -20px;
+}
+
+.section-2 .container p{
+    color: #adadad;
+    font-weight: 500;
+    margin-left: 30px;
+    padding: 8px;
+}
+
+
+.section-2 .container h1{
+    margin-left: 30px;
+}
+
+
+.section-2 .container .whatsapp{
+    display: flex;
+}
+
+.section-2 .container .whatsapp img{
+    margin-left: 15px;
+}
+
+
+/* ---------- onde-estamos ---------- */
+
+
+.onde-estamos{
+    width: 100%;
+    /* background-color: tomato; */
+}
+
+.onde-estamos .container{
+    margin: 0 auto;
+    /* background-color: blue; */
+    max-width: 1200px;
+    padding: 20px 0;
+
+}
+
+.onde-estamos .container h1{
+    font-size: 35px;
+    color: #850c12;
+    font-weight: 500;
+}
+
+.onde-estamos .container span{
+    position: absolute  ;
+    width: 100px;
+    height: 2px;
+    background-color: #e0e0e0;
+}
+
+
+
+.sao-jose-dos-campos{
+    width: 100%;
+}
+
+.sao-jose-dos-campos .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: blue; */
+    display: grid;
+}
+
+.sao-jose-dos-campos .container h1{
+    color: #850c12;
+    font-weight: 500;
+}
+
+
+.sao-jose-dos-campos .container .locais {
+    /* background-color: yellow; */
+    margin: 20px;
+    padding: 10px;
+}
+
+.sao-jose-dos-campos .container .locais .addres .title{
+    display: flex;
+    align-items: center;
+}
+
+.sao-jose-dos-campos .container .locais .addres .title img{
+    padding: 0 10px;
+    width: 45px;
+}
+
+.sao-jose-dos-campos .container .locais .addres{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 500;
+    color: #adadad;
+}
+
+
+/* ----------- */
+
+
+.jacarei{
+    width: 100%;
+}
+
+.jacarei .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: blue; */
+    display: grid;
+}
+
+
+.jacarei .container .locais {
+    /* background-color: yellow; */
+    margin: 20px;
+    padding: 10px;
+}
+
+.jacarei .container .locais .addres .title{
+    display: flex;
+    align-items: center;
+}
+
+.jacarei .container .locais .addres .title img{
+    padding: 0 10px;
+    width: 45px;
+}
+
+.jacarei .container .locais .addres{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 500;
+    color: #adadad;
+}
+
+/* ---------- */
+
+
+
+.cacapava{
+    width: 100%;
+}
+
+.cacapava .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: blue; */
+    display: grid;
+}
+
+
+.cacapava .container .locais {
+    /* background-color: yellow; */
+    margin: 20px;
+    padding: 10px;
+}
+
+.cacapava .container .locais .addres .title{
+    display: flex;
+    align-items: center;
+}
+
+.cacapava .container .locais .addres .title img{
+    padding: 0 10px;
+    width: 45px;
+}
+
+.cacapava .container .locais .addres{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 500;
+    color: #adadad;
+}
+
+
+/* ----------- */
+
+
+.taubate{
+    width: 100%;
+}
+
+.taubate .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: blue; */
+    display: grid;
+}
+
+
+.taubate .container .locais {
+    /* background-color: yellow; */
+    margin: 20px;
+    padding: 10px;
+}
+
+.taubate .container .locais .addres .title{
+    display: flex;
+    align-items: center;
+}
+
+.taubate .container .locais .addres .title img{
+    padding: 0 10px;
+    width: 45px;
+}
+
+.taubate .container .locais .addres{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 500;
+    color: #adadad;
+}
+
+/* ---------- pre-footer ---------- */
+
+.pre-footer{
+    width: 100vw;
+    background-image: url('/assets/pre-footer/BelCasa\ Elementos\ 4.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-bottom: 8px solid #fff;
+}
+
+.pre-footer .container{
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pre-footer .container .left{
+    text-align: center;
+    margin-left: -100px;
+    color: #fff;
+}
+
+.pre-footer .container .left img{
+    width: 20px;
+    margin: 5px 10px;
+}
+
+
+.pre-footer .container .left h2{
+    padding: 3px 0;
+}
+
+.pre-footer .container .left p{
+    padding: 5px 0 25px 0;
+}
+
+.pre-footer .container .left .fale-conosco{
+    background-color: #fff;
+    text-decoration: none;
+    color: #ed1b24;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pre-footer .container .left .redes-sociais{
+    margin-top: 20px;
+}
+
+
+/* ---------- footer ---------- */
+
+footer{
+    background-color: #ed1b24;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+/*  MEDIA QRY */
+
+@media (max-width: 700px) {
+    .onde-estamos .container h1{
+        padding: 20px;
+    }
+    .onde-estamos .container span{
+        margin: 0 20px;
+    }
+    .pre-footer .container{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .sao-jose-dos-campos .container h1{
+        padding: 20px;
+        color: #850c12;
+    }
+
+    .sao-jose-dos-campos .container .locais .addres{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .sao-jose-dos-campos .container .locais .addres .title{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .jacarei .container h1{
+        padding: 20px;
+        color: #850c12;
+    }
+
+    .jacarei .container .locais .addres{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .jacarei .container .locais .addres .title{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .cacapava .container .locais .addres{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .cacapava .container h1{
+        color: #850c12;
+        padding: 20px;
+    }
+
+    .cacapava .container .locais .addres .title{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .taubate .container h1{
+        padding: 20px;
+        color: #850c12;
+    }
+
+    .taubate .container .locais .addres{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .taubate .container .locais .addres .title{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 700px){
+    .section-2 .container .whatsapp img{
+        width: 30px;
+        height: 30px;
+    }
+    section .container .left a{
+        margin-top: -20px;
+    }
+    section .container .left span{
+        background-color: #850c12;
+        margin-top: 20px;
+    }
+    section .container .left h1{
+        font-size: 50px;
+    }
+    .item{
+        flex: 1 0 100%;
+    }
+    .item img {
+        height: 17rem;
+      }
+    .carousel-wrapper {
+        max-width: 600px;
+    }
+    .slider{
+        width: 250px;
+    }
+    .section-2 .container{
+        display: grid;
+        grid-template-columns: auto ;
+        justify-content: center;
+        height: 500px;
+    }
+    .section-2 .container img{
+        width: 150px;
+    }
+    header .container .links .home{
+        display: none;
+    }
+    header .container .links{
+        text-align: center;
+    }
+    header .container .links a{
+        color: #fff;
+        font-size: 10px;
+        text-align: end;
+    }
+    header .container .social-links{
+        display: grid;
+        padding: 0 15px;
+    }
+
+    header .container .logo img{
+        width: 100px;
+    }
+    header .container .logo img{
+        padding: 0 10px;
+    }
+    .pre-footer .container{
+        display: flex;
+        justify-content: end;
+    }
+    .pre-footer .container .left{
+        padding: 0 20px;
+    }
+    .pre-footer .container .left p{
+        font-size: 12px;
+    }
+    .pre-footer .container .right p{
+        font-size: 12px;
+    }
+    .pre-footer .container .right{
+        padding: 0 10px;
+    }
+}
